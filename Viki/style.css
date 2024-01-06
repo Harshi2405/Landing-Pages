@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+}
+
+header {
+    background-color: #2980b9; /* Darker blue for the header */
+    padding: 1em;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #34495e; /* Dark blue text color */
+}
+
+button {
+    padding: 10px;
+    background-color: #2980b9; /* Button color matching the header */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c3e50; /* Darker blue on hover */
+}
