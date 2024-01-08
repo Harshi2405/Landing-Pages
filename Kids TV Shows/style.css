@@ -1,0 +1,54 @@
+/* Basic styles for the layout */
+head{
+  background-color: pulm;
+}
+body {
+  background-image: url('https://img.freepik.com/free-vector/watercolor-sugar-cotton-clouds-background_52683-80660.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+h2{
+  color:purple;
+}
+#channels {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.channel {
+  width: 45%;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.shows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.show {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+}
